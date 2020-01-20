@@ -1,4 +1,4 @@
-package com.bq.gradle
+package com.masmovil.gradle
 
 import groovy.json.JsonSlurper
 import org.gradle.api.DefaultTask

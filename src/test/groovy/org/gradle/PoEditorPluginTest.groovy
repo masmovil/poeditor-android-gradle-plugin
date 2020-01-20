@@ -16,7 +16,7 @@ class PoEditorPluginTest {
     @Test
     public void poeditorPluginAddsImportPoEditorStringsTaskToProject() {
         Project project = ProjectBuilder.builder().build()
-        project.apply plugin: 'com.bq.poeditor'
+        project.apply plugin: 'com.masmovil.poeditor'
 
         assertTrue(project.tasks.importPoEditorStrings instanceof ImportPoEditorStringsTask)
     }
