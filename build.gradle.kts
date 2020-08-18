@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-group = "com.github.bq"
+group = "com.github.masmovil"
 
 buildscript {
     repositories {
